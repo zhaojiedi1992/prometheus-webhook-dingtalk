@@ -43,4 +43,5 @@ alerts1='{
     "version": "3"
 }'
 
-curl -XPOST -d"$alerts1" http://localhost:8060/dingtalk/general_alerting/send
+#curl -XPOST -d"$alerts1" http://localhost:8060/dingtalk/general_alerting/send
+curl -XPOST -d"$alerts1" http://dingding-webhook/dingtalk/dingding_webhook_base/send
