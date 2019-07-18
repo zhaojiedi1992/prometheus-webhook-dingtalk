@@ -38,8 +38,8 @@ Flags:
 
 You can deploy this tool using the Docker image from following registry:
 
-* [DockerHub]\: [timonwong/prometheus-webhook-dingtalk](https://registry.hub.docker.com/u/timonwong/prometheus-webhook-dingtalk/)
-* [Quay.io]\: [timonwong/prometheus-webhook-dingtalk](https://quay.io/repository/timonwong/prometheus-webhook-dingtalk)
+* [DockerHub]\: [zhaojiedi1992/prometheus-webhook-dingtalk](https://registry.hub.docker.com/u/zhaojiedi1992/prometheus-webhook-dingtalk/)
+* [Quay.io]\: [zhaojiedi1992/prometheus-webhook-dingtalk](https://quay.io/repository/zhaojiedi1992/prometheus-webhook-dingtalk)
 
 [Prometheus]: https://prometheus.io
 [AlertManager]: https://github.com/prometheus/alertmanager

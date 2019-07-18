@@ -2,7 +2,7 @@
 {{ define "__alertmanagerURL" }}{{ .ExternalURL }}/#/alerts?receiver={{ .Receiver }}{{ end }}
 
 {{ define "__text_alert_list" }}{{ range $index, $value :=. }}
-{{ if gt 0 $index }}
+{{ if le 0 $index }}
 **Labels**
 {{ range .value.Labels.SortedPairs }}> - {{ .Name }}: {{ .Value | markdown | html }}
 {{ end }}

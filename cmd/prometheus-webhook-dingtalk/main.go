@@ -13,9 +13,9 @@ import (
 	"github.com/prometheus/common/promlog"
 	"github.com/prometheus/common/promlog/flag"
 	"github.com/prometheus/common/version"
-	"github.com/timonwong/prometheus-webhook-dingtalk/chilog"
-	"github.com/timonwong/prometheus-webhook-dingtalk/template"
-	"github.com/timonwong/prometheus-webhook-dingtalk/webrouter"
+	"github.com/zhaojiedi1992/prometheus-webhook-dingtalk/chilog"
+	"github.com/zhaojiedi1992/prometheus-webhook-dingtalk/template"
+	"github.com/zhaojiedi1992/prometheus-webhook-dingtalk/webrouter"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 
